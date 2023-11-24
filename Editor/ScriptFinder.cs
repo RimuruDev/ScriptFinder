@@ -24,7 +24,7 @@ namespace External.RimuruDev.ScriptFinder.Editor
         private const string FindInternalButton = "Find Scripts";
         private const string FindAllButton = "Find All Project Scripts";
         private const string SearchPattern = "*.cs";
-        private const bool searchAllSubFolders = true;
+        private const string СtrlF3 = "%#F3";
 
         private int totalScriptsFound;
         private string[] scriptsInFolder;
@@ -36,7 +36,7 @@ namespace External.RimuruDev.ScriptFinder.Editor
         private static string ProjectScriptPath =>
             Application.dataPath;
 
-        [MenuItem("RimuruDev Tools/Script Finder")]
+        [MenuItem("RimuruDev Tools/Script Finder " + СtrlF3)]
         public static void ShowWindow()
         {
             var window = GetWindow<ScriptFinder>(Title);
@@ -75,7 +75,7 @@ namespace External.RimuruDev.ScriptFinder.Editor
             {
                 const string logFormat = "<color=red>{0}</color>";
                 const string message = "Incorrect name of the root folder. Please specify the correct name of the folder where you want to search for scripts.";
-                Debug.LogFormat(logFormat,message);
+                Debug.LogFormat(logFormat, message);
             }
 
             totalScriptsFound = scriptsInFolder.Length;
