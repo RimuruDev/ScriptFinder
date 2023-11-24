@@ -1,0 +1,25 @@
+﻿{
+  "name": "com.rimurudev.utilities.scriptFinder",
+  "version": "1.0.0",
+  "displayName": "RimuruDev",
+  "description": "Facilitates counting the number of scripts in a particular folder or folder hierarchy.",
+  "unity": "2019.1",
+  "dependencies": {},
+  "keywords": [
+    "rimurudev",
+    "rimuru-dev",
+    "abyssmoth",
+    "abyss-moth",
+    "unity",
+    "unity2d",
+    "unity-editor",
+    "utility",
+    "unity-scripts",
+    "unity-tools"
+  ],
+  "author": {
+    "name": "RimuruDev",
+    "email": "rimuru.dev@gmail.com",
+    "url": "https://github.com/RimuruDev"
+  }
+}
