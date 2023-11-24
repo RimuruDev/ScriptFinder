@@ -26,6 +26,10 @@ ScriptFinder — это утилита для Unity Editor, разработан
 1. Скачайте последний `*.unitypackage` файл из раздела [Releases](https://github.com/RimuruDev/ScriptFinder/releases) на GitHub.
 2. Импортируйте этот пакет в ваш проект Unity через `Assets` > `Import Package` > `Custom Package...`.
 
+![image](https://github.com/RimuruDev/ScriptFinder/assets/85500556/cfc9b71a-84d6-4133-94d9-9aab4668f673)
+![image](https://github.com/RimuruDev/ScriptFinder/assets/85500556/9cd0bdb2-43ba-4012-a17f-fcc2a61e7ba3)
+![image](https://github.com/RimuruDev/ScriptFinder/assets/85500556/0ce4d200-45fe-4f0b-bd48-a93e70c8a10e)
+
 ## Автор
 - **RimuruDev**
 - **Email**: rimuru.dev@gmail.com
