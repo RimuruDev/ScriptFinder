@@ -1,6 +1,6 @@
 ﻿{
   "name": "com.rimurudev.utilities.scriptfinder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "RimuruDev Utilities",
   "description": "Facilitates counting the number of scripts in a particular folder or folder hierarchy.",
   "unity": "2019.1",
